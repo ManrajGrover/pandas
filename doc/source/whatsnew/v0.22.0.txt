@@ -87,7 +87,7 @@ Deprecations
 ~~~~~~~~~~~~
 
 - ``Series.from_array`` and ``SparseSeries.from_array`` are deprecated. Use the normal constructor ``Series(..)`` and ``SparseSeries(..)`` instead (:issue:`18213`).
--
+- ``Index.summary`` is deprecated. (:issue: `18217`).
 -
 
 .. _whatsnew_0220.prior_deprecations:

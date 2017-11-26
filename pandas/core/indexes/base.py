@@ -1217,6 +1217,9 @@ class Index(IndexOpsMixin, PandasObject):
         return False
 
     def summary(self, name=None):
+        """ DEPRECATED """
+        warnings.warn("'.summary' is deprecated.", FutureWarning, stacklevel=2)
+
         if len(self) > 0:
             head = self[0]
             if (hasattr(head, 'format') and
